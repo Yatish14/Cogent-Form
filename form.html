@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <form id="form" action="connect.php" method="POST">
+    <div>
+        <div class="cogent">
+            <img src="image2.png" alt="cogent" >
+            <h1>Cogent Developers Network Registration Form</h1>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>1.Name</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="name"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>2.E-Mail</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="email"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>3.Graduation Year</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="year"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>4. Mobile Number</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="mobile"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>5. Whatsapp Number</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="number"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>6. Technical Skills</h3>
+            </div>
+            <div class="div-skills">
+                <div class="checkdiv">
+                    <input type="checkbox"></input>
+                    <p>HTML,CSS</p>
+                </div>
+                <div class="checkdiv">
+                    <input type="checkbox"></input>
+                    <p>JavaScript</p>
+                </div>
+                <div class="checkdiv">
+                    <input type="checkbox"></input>
+                    <p>PHP,MySQL</p>
+                </div>
+                <input type="text" placeholder="Other" required name="skills"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>7. Short Introduction About Me</h3>
+            </div>
+            <div class="div2">
+                <input type="text" required name="me"></input>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="name">
+            <div class="div1">
+                <h3>8. Resume</h3>
+            </div>
+            <div class="div2">
+                <label for="fileInput" class="upload-btn" required>Upload</label>
+                <input type="file" class="upload-button" id="fileInput"></input>
+                <p>* Maximum allowed file size is <span style="font-weight: bold;">5MB</span> .</p>
+                <div class="p-div">
+                    <p>Required</p>
+                </div>
+            </div>
+        </div>
+        <div class="submit-div">
+            <button type="submit" class="upload-btn">SUBMIT</button>
+        </div>
+    </div>
+    </form>
+    <script src="/script.js"></script>
+</body>
+</html>

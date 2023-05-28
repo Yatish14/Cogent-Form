@@ -5,7 +5,7 @@ body
     /* position: fixed; */
     width: 100vw;
     height: 100vh;
-    background-image: url("/image1.jpeg");
+    background-image: url("image1.jpeg");
     /* filter: blur(10px); */
     /* -webkit-filter: blur(8px); */
     background-size: cover;
